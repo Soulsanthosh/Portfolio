@@ -9,7 +9,7 @@ export default function About() {
           <p>Hello! I'm <b>SANTHOSHKUMAR&#128526;</b>, a passionate Python Full-Stack Developer with a deep love for building robust, scalable, and efficient web applications. With a strong foundation in both back-end and front-end technologies, I enjoy bringing ideas to life and delivering seamless user experiences.</p>
         </div>
         <div className='resume'>
-            <a href="https://drive.google.com/file/d/1LlbZ6pywDCUzCz3K4sfvRLzTiI9GR3Z0/view?usp=drive_link" target='_blank' rel="noreferrer"><button>View Resume -></button></a>
+            <a href="https://drive.google.com/file/d/1LlbZ6pywDCUzCz3K4sfvRLzTiI9GR3Z0/view?usp=drive_link" target='_blank' rel="noreferrer"><button>View Resume &gt;</button></a>
         </div>
         <div className='my-journey'>
             <h2>My Journey</h2>
