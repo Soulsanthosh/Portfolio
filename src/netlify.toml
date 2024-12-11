@@ -1,8 +1,19 @@
+<<<<<<< HEAD
 [build.environment]
   NODE_VERSION = "16"
+  NPM_FLAGS = "--legacy-peer-deps"
+[build]
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "build"  # Replace with your output folder
+  command = "npm run build"
 
 
 [[redirects]]
 from="/*"
 to="index.html"
+=======
+[[redirects]]
+from="/*"
+to="index.html"
+>>>>>>> 8c5363c38a475bc6298540cc4e4a5b9dd99cc8f7
 status=200
