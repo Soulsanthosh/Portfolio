@@ -1,3 +1,6 @@
+[build.environment]
+  NODE_VERSION = "16"
+  NPM_FLAGS = "--legacy-peer-deps"
 [build]
 command = "npm run build"
 publish = "build"
@@ -7,3 +10,4 @@ base = "/"
 from = "/*"
 to = "/index.html"
 status = 200
+
